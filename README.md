@@ -70,7 +70,7 @@ All numbers below are produced by the scripts in `experiments/` and stored in `r
 
 * Where this tool reports an IC50 and the depositor also lists a fitted AC50 (96 substances), the two agree closely: median |difference| 0.037 log10, all within 0.3 log10, Pearson r = 0.98. This is agreement between two Hill fits to the same points, not validation against a ground truth.
 * The depositor lists an AC50 for 104 substances for which this tool returns *undefined* (mostly extrapolated or partial curves; these are exactly the cases the tool is designed to refuse). Median reported 95% CI width: 0.19 log10.
-* Example report with 8 curves (first of each category, not random): [docs/example_report.html](docs/example_report.html) and [PDF](docs/example_report.pdf).
+* Example report with 11 curves (first of each category, not random): [docs/example_report.html](docs/example_report.html) and [PDF](docs/example_report.pdf).
 
 ## Limitations
 
