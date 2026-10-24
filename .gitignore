@@ -1,6 +1,10 @@
-__pycache__/
-*.pyc
 .venv/
+__pycache__/
+*.egg-info/
+build/
+.pytest_cache/
+results/*.log
+*.pyc
 .env
 .ipynb_checkpoints/
 data/raw/

@@ -1,0 +1,44 @@
+{
+ "n_compounds": 300,
+ "status_by_outcome": {
+  "Active": {
+   "warn": 32,
+   "undefined": 37,
+   "ok": 31
+  },
+  "Inconclusive": {
+   "undefined": 67,
+   "warn": 22,
+   "ok": 11
+  },
+  "Inactive": {
+   "undefined": 98,
+   "warn": 2
+  }
+ },
+ "flag_counts": {
+  "MISSING_PLATEAU_HIGH_DOSE": 52,
+  "WIDE_CI": 48,
+  "IC50_CI_NOT_BRACKETED": 57,
+  "PLATEAU_UNIDENTIFIED": 58,
+  "EXTREME_HILL": 55,
+  "POOR_FIT": 3,
+  "PARAM_AT_BOUND": 9,
+  "FEW_CONCENTRATIONS": 5,
+  "NO_ACTIVITY": 87
+ },
+ "depositor_comparison": {
+  "n_pairs": 96,
+  "median_diff_log10": -6.940197570756701e-05,
+  "median_abs_diff_log10": 0.036597841024759464,
+  "frac_within_0.3_log10": 1.0,
+  "pearson_r": 0.9805036830202927,
+  "ok_only": {
+   "n": 42,
+   "median_abs_diff_log10": 0.029852129141516248,
+   "frac_within_0.3_log10": 1.0
+  }
+ },
+ "undefined_but_depositor_reports_ac50": 104,
+ "median_ci_width_log10_reported": 0.1907991371760715
+}
